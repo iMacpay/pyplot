@@ -8,5 +8,5 @@ dk=df.T
 #df.plot.line( )
 #plt.show()
 
-dk[-5:-1].plot.line()
+dk.iloc[-5:-1,0:100].plot.line()
 plt.show()
